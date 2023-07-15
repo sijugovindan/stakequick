@@ -1,0 +1,30 @@
+
+1.STT token is used to stake and as well as for rewards.
+
+2. While deploying STT token , 10 percent of supply is send to “0x4a78a8ac0c301D5f71Fbea7Bf797a2200403f28A” for testing purposes.
+This can be removed in production if needed.
+
+3.STT tokens are created now in 18 decmial units for now. It can be changed to 8 later and need change in front end also accordingly.
+
+4. While deploying contract or after deploying STT tokens, the deployer/owner owns all STT tokens. Owner can trasfer
+some portion of STT to Staking Contract allocated for rewards for depoistors.
+
+5.Rewards are calculated based on compound interest and blocks produced.
+
+#install npm packages
+# npm i 
+
+use truffle to compile
+# truffle compile
+
+to start the dapp locally
+# npm run start
+
+Design
+=======
+Assumes staker can stake many times.
+A sequence diagram with repext to time can be drawn for actors and events and the data that isinteracting or going throught the system
+and identify the roles, state changes that happens as time flows. This will help to obtain an overallview of the system and inform the data structures , access controls to be used n lower level design.
+
+
+
